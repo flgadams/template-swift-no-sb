@@ -3,17 +3,15 @@
 //  template-swift-no-sb
 //
 //  Created by Glenn Adams on 7/30/22.
-//
+// A Swift project template for UIKit apps, no storyboards
 
 import UIKit
 
-class ViewController: UIViewController {
+class RootViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        self.view.backgroundColor = .systemRed
     }
-
-
 }
 
